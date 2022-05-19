@@ -38,7 +38,7 @@ $(function () {
     e.preventDefault();
     $.ajax({
       type: "POST",
-      url: baseUrl + "/api/reguser",
+      url:  "/api/reguser",
       data: {
         username: $("#form_reg [name=username]").val(),
         password: $("#form_reg [name=password]").val(),
@@ -57,7 +57,7 @@ $(function () {
     e.preventDefault();
     $.ajax({
       type: "POST",
-      url: baseUrl +"/api/login",
+      url: "/api/login",
       data: $("#form_login").serialize(),
       success: (res) => {
         //   console.log(res);
