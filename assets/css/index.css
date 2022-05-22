@@ -1,6 +1,8 @@
 .layui-footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
+  background-color: #333 !important;
+  color: honeydew!important;
 }
 .iconfont {
   margin-right: 8px;

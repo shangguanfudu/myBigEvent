@@ -56,3 +56,7 @@ function renderAvatar(user) {
     $(".layui-nav-img").hide();
   }
 }
+// 发布跳转标签高亮
+function change(){
+  $("#art_list").addClass("layui-this").next().removeClass("layui-this")
+}
